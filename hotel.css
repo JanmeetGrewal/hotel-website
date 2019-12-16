@@ -1,0 +1,219 @@
+body { background-color: #F6F4EE;
+      color: #666666;
+	  font-family: Verdana, Arial, sans-serif;}
+header { height: 120px;text-align:center;
+    background-color:#ffffff;display:block;border-top:8px solid #48484A }
+nav { ;text-align:center;padding-top:;background-color:#48484A;display:block;opacity:0.7;margin:0 auto}
+nav a{ text-decoration: none; color:#ffffff;font-family:Palatino Linotype, Book Antiqua, Palatino, serif; display:inline-block;padding-left:2em;padding-right:2em;margin-top:0;padding-top:10px;padding-bottom:10px;transition: background-color 0.3s linear; }
+
+
+nav a:hover {background-color: #ffffff;color:#000000;text-align:center; }
+main{padding-left:20px;
+    padding-right:20px;
+    display:block }
+h1 {font-family: "Times New Roman",Georgia,serif;padding-top:15px;font-size: 40px;padding-bottom:;color:#48484A; }
+
+#homehero {height:550px; background-image:url(images/hotel.jpeg);
+    background-size:100% 100%;
+    background-repeat:no-repeat}
+
+#roomhero { height:550px;
+    background-image:url(images/room.jpeg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat}
+#dininghero {height:550px;
+    background-image:url(images/dining.jpeg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat}
+
+#facilitieshero {height:550px;
+    background-image:url(images/facilities.jpeg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat}
+
+#offershero {height:550px;
+    background-image:url(images/offers.jpeg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat}
+
+h3{color:#000033}
+dt { color: #000033; 
+   font-weight: bold }
+.resort { font-weight: bold ;color: #000033;
+          font-size: 1.2em }
+
+#wrapper { background-color: #ffffff;
+    min-width:700px;
+    max-width:1340px;          margin-left: auto;
+    margin-right: auto;
+           }
+#col1 { float: left;
+    width: 620px; padding-top: 2em;margin-left:4em;margin-right:4em;}
+#col1 h2 {font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+#col2 { float : right;width: 430px; padding-top: 2em;}
+label {float: left; display: block; width:7em;color: #48484A;padding-left:3em; margin-left:1em;}
+#checkin, #checkout {block: display; width: 13em;margin-left: 1em;padding-left:1em ; margin-bottom: 2em; }
+
+select { display: block;width: 14em; margin-left:1em;padding-left:1em;margin-bottom:1em}
+#rooms {margin-left:1em}
+
+#submit {display: block;  ;width: 26em;margin:auto;margin-left:em; background-color:#48484a;color:#ffffff; padding-top:1em;padding-bottom:1em;font-family:Palatino Linotype, Book Antiqua, Palatino, serif; border-radius:10px;margin-top:2em}
+#submit a:hover {background-color: #89898D;}
+
+#reservation {width:430px; margin-top:0; padding-top:1em;padding-bottom:1em;text-align:center;background-color:#48484A;color:#ffffff;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;margin-bottom:2em}
+form{background-color:#F6F4EE;  margin-bottom:4em;padding-bottom: 4em;width:430px;margin-top:1em}
+#g {margin-right:1em;float:left;width:7em; color:#48484A;padding-left:3em;margin-left:1em;}
+#r {margin-right:1em;float:left;width:7em; color:#48484A;padding-left:3em;margin-left:1em}
+#reservation {}
+#features {clear:both;padding-bottom:10em; background-color:#F6F4EE;padding-top:1em;margin-bottom:3em}
+#features h2 {font-family:Palatino Linotype, Book Antiqua, Palatino, serif}
+#column1 {display:block;float:left;width:450px;margin-left:7em;color:#48484A;}
+#column2 { display:block;float:right;width:450px;margin-right:2em;color: #48484A;margin-left:3em;}
+#features h2{text-align:center;color:#000000}
+footer  {clear: both;margin-top:2em;padding-bottom:1em;font-style:none;text-align:center; color: #48484A;background-color: #F6F4EE;padding-top:1em;display:block}
+footer a {text-decoration:none;color:#48484A }
+#room1 {float:left;width: 500px;margin-left:4em;margin-bottom:2em;margin-top:1em}
+#room2 {float:right;width:500px;margin-right:4em;margin-bottom:2em;margin-top:1em}
+#roomheading {text-align:center;margin-bottom:1em; font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000;}
+#r1 {background-image:url(images/r1.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;border:1px solid #ffffff}
+#r1 p{color:#000000;background-color:#ffffff;opacity:0.6;font-size:2em;text-align:center;margin-top:0;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+#r1description {padding:1em;}
+#r1buttons{text-align:center;margin-left:4em;margin-right:4em;margin-bottom:2em}
+#r1buttons a{display:inline-block;text-decoration:none;background-color:#48484A;color:#ffffff;padding-left:1em;padding:0.5em 2em 0.5em 2em;margin-right:1em;margin-left:1em}
+#r1buttons a:hover {background-color: #89898D;}
+    #r2 {background-image:url(images/r2.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;border:1px solid #ffffff}
+#r2 p{color:#000000;background-color:#ffffff;opacity:0.6;font-size:2em;text-align:center;margin-top:0;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+#r2description {padding:1em}
+#r2buttons{text-align:center;margin-left:4em;margin-right:4em;margin-bottom:2em}
+#r2buttons a{display:inline-block;text-decoration:none;background-color:#48484A;color:#ffffff;padding-left:1em;padding:0.5em 2em 0.5em 2em;margin-right:1em;margin-left:1em}
+#r2buttons a:hover {background-color: #89898D;}
+
+#r3 {background-image:url(images/r3.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;border:1px solid #ffffff}
+#r3 p{color:#000000;background-color:#ffffff;opacity:0.6;font-size:2em;text-align:center;margin-top:0;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+#r3description {padding:1em}
+#r3buttons{text-align:center;margin-left:4em;margin-right:4em;margin-bottom:2em}
+#r3buttons a{display:inline-block;text-decoration:none;background-color:#48484A;color:#ffffff;padding-left:1em;padding:0.5em 2em 0.5em 2em;margin-right:1em;margin-left:1em}
+#r3buttons a:hover {background-color: #89898D;}
+
+#r4 {background-image:url(images/r4.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;border:1px solid #ffffff}
+#r4 p{color:#000000;background-color:#ffffff;opacity:0.6;font-size:2em;text-align:center;margin-top:0;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+#r4description {padding:1em}
+#r4buttons{text-align:center;margin-left:4em;margin-right:4em;margin-bottom:2em}
+#r4buttons a{display:inline-block;text-decoration:none;background-color:#48484A;color:#ffffff;padding-left:1em;padding:0.5em 2em 0.5em 2em;margin-right:1em;margin-left:1em}
+#r4buttons a:hover {background-color: #89898D;}
+
+#r5 {background-image:url(images/r5.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;border:1px solid #ffffff}
+#r5 p{color:#000000;background-color:#ffffff;opacity:0.6;font-size:2em;text-align:center;margin-top:0;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+#r5description {padding:1em}
+#r5buttons{text-align:center;margin-left:4em;margin-right:4em;margin-bottom:2em}
+#r5buttons a{display:inline-block;text-decoration:none;background-color:#48484A;color:#ffffff;padding-left:1em;padding:0.5em 2em 0.5em 2em;margin-right:1em;margin-left:1em}
+#r5buttons a:hover {background-color: #89898D;}
+
+#r6 {background-image:url(images/r6.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;border:1px solid #ffffff}
+#r6 p{color:#000000;background-color:#ffffff;opacity:0.6;font-size:2em;text-align:center;margin-top:0;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+#r6description {padding:1em}
+#r6buttons{text-align:center;margin-left:4em;margin-right:4em;margin-bottom:2em}
+#r6buttons a{display:inline-block;text-decoration:none;background-color:#48484A;color:#ffffff;padding-left:1em;padding:0.5em 2em 0.5em 2em;margin-right:1em;margin-left:1em}
+#r6buttons a:hover {background-color: #89898D;}
+
+#viewmore {clear:both;text-align:center;margin-bottom:4em}
+#viewmore a {text-decoration:none; background-color:#48484A;color:#ffffff;padding:0.5em 4em 0.5em 4em}
+#viewmore a:hover {background-color: #89898D}
+
+#diningheading {text-align:center;margin-bottom:1em; font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000;margin-left:1em}
+hr {margin-bottom:3em}
+#dining1 { float:left;width:500px;margin-left:8em; }
+#dining2 { float:right;margin-right:8em;width:400px; }
+#d1 {background-image:url(images/d1.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;margin-bottom:4em}
+#d1name {margin-left:5em;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000;margin-top:6em}
+#d1description {margin-left:5em;}
+#d1button {text-align:center;}
+#d1button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em}
+#d1button a:hover {background-color: #89898D;}
+
+#d1box {border:0.1px solid #F6F4EE;height:300px;background-color:#F6F4EE;margin-bottom:4em}
+
+#d2 {background-image:url(images/d2.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;margin-bottom:4em}
+#d2name {margin-left:5em;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000;margin-top:6em}
+#d2description {margin-left:5em}
+#d2button {text-align:center;margin-bottom:15em}
+#d2button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em;}
+#d2button a:hover {background-color: #89898D;}
+
+#d2box {border:1px solid #F6F4EE;height:300px;background-color:#F6F4EE;margin-bottom:4em}
+
+#d3 {background-image:url(images/d3.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;margin-bottom:4em}
+#d3name {margin-left:5em;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000;margin-top:6em}
+#d3description {margin-left:5em}
+#d3button {text-align:center;margin-bottom:15em}
+#d3button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em;}
+#d3button a:hover {background-color: #89898D;}
+
+#d3box {border:1px solid #F6F4EE;height:300px;background-color:#F6F4EE;margin-bottom:4em}
+
+#d4 {background-image:url(images/d4.jpeg);height:300px;background-size:100% 100%;background-repeat:no-repeat;margin-bottom:4em}
+#d4name {margin-left:5em;font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000;margin-top:6em}
+#d4description {margin-left:5em}
+#d4button {text-align:center;margin-bottom:15em}
+#d4button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em;}
+#d4button a:hover {background-color: #89898D;}
+
+#d4box {border:1px solid #F6F4EE;height:300px;background-color:#F6F4EE;margin-bottom:4em}
+#facilities {margin-left:12em;margin-right:12em}
+#facilities h2 {font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000}
+
+#facilities1 {float:left;width:220px;margin-right:1em}
+#facilities2 {paddin-left:1em;margin-left:3em;}
+#f1 {background-image:url(images/f1.jpeg);height:182px;background-size:100% 100%;background-repeat:no-repeat;margin-bottom:2em;}
+#f2 {background-image:url(images/f2.jpeg);height:182px;background-size:100% 100%;background-repeat:no-repeat; margin-bottom:2em}
+#f3 {background-image:url(images/f3.jpeg);height:182px;background-size:100% 100%;background-repeat:no-repeat;margin-bottom:2em}
+#f4 {background-image:url(images/f4.jpeg);height:182px;background-size:100% 100%;background-repeat:no-repeat;margin-bottom:2em}
+#f1description {border:1px solid #F6F4EE;background-color:#F6F4EE;margin-bottom:2em;height:180px}
+#f1description h2 {text-align:center}
+
+#f2description {border:1px solid #F6F4EE;background-color:#F6F4EE;margin-bottom:2em;height:180px}
+#f2description h2 {text-align:center;}
+
+#f3description {border:1px solid #F6F4EE;background-color:#F6F4EE;margin-bottom:2em;height:180px}
+#f3description h2 {text-align:center;}
+
+#f4description {border:1px solid #F6F4EE;background-color:#F6F4EE;margin-bottom:4em;height:180px}
+#f4description h2 {text-align:center;}
+
+#offers {margin-left:12em;margin-right:12em}#offers h2 {font-family:Palatino Linotype, Book Antiqua, Palatino, serif;color:#000000;text-align:}
+#offer1 {border:1px solid #F6F4EE; padding-bottom:3.7em;background-color:#F6F4EE;margin-bottom:2em;padding-left:1em}
+#header {text-align:center;}
+#o1button {float:right; padding-top:2em; padding-right:1em;text-align:center;}
+#o1button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em}
+#o1button a:hover {background-color: #89898D;}
+
+#offer2 {border:1px solid #F6F4EE; padding-bottom:3.7em;background-color:#F6F4EE;margin-bottom:2em;padding-left:1em}
+#offer2 h2 {text-align:}
+#o2button {float:right; padding-top:2em; padding-right:1em;text-align:center;}
+#o2button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em}
+#o2button a:hover {background-color: #89898D;}
+
+
+#offer3 {border:1px solid #F6F4EE; padding-bottom:3.7em;background-color:#F6F4EE;margin-bottom:2em; padding-left:1em}
+#offer3 h2 {text-align:}
+#o3button {float:right; padding-top:2em; padding-right:1em;text-align:center;}
+#o3button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em}
+#o3button a:hover {background-color: #89898D;}
+
+
+
+#offer4 {border:1px solid #F6F4EE; padding-bottom:3.7em;background-color:#F6F4EE;margin-bottom:2em; padding-left:1em}
+#offer4 h2 {text-align:}
+#o4button {float:right; padding-top:2em; padding-right:1em;text-align:center;}
+#o4button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em}
+#o4button a:hover {background-color: #89898D;}
+
+
+
+#offer5 {border:1px solid #F6F4EE; padding-bottom:3.7em;background-color:#F6F4EE;margin-bottom:2em; padding-left:1em}
+#offer5 h2 {text-align:}
+#o5button {float:right; padding-top:2em; padding-right:1em;padding-left:1emtext-align:center;}
+#o5button a {display:inline-block; text-decoration:none;background-color:#48484A;color:#ffffff;padding:0.5em 2em 0.5em 2em}
+#o5button a:hover {background-color: #89898D;}
+
+
